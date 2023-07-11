@@ -7,10 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-main {
+/* main {
     max-width: 1140px;
     margin: 0 auto;
-}
+} */
 
 main section {
     margin-top: 130px;
@@ -41,6 +41,7 @@ main section {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 /* Header */
@@ -88,21 +89,18 @@ main section {
 
 
 /* Flower Category */
-.flower-box {
 
-    margin: 0 auto;
+.flower-box {
+ max-width: 1200px;
+ margin: 0 auto;
 }
 
 .flower-box-container {
-    width: 1000;
     display: flex;
     gap: 24px;
     justify-content: space-around;
     padding-top: 0px;
-    padding-left: 260px;
-    width: 464px;
     height: 538px;
-    margin-left: 50px;
 }
 
 .flower-box1 {
@@ -170,13 +168,16 @@ main section {
 
 /* Delivery */
 .info {
+    max-width: 1325px;
+    margin: 0 auto;
     padding: 50px;
     border-radius: 10px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 140px 0px;
+    
     display: flex;
     justify-content: space-around;
-    gap: 24px;
+    
+ 
 }
 
 .delivery-caption {
@@ -208,7 +209,7 @@ main section {
 
 .discount-container {
     background-color: #E554730D;
-    width: 100%;
+    
     background-position: center;
     display: flex;
     align-items: center;
@@ -220,6 +221,10 @@ main section {
 .discount-container-2 {
     align-items: center;
     padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .discount-title {
@@ -252,7 +257,7 @@ main section {
     margin-top: 48px;
     display: flex;
     justify-content: space-around;
-    gap: 24px;
+    gap: 10px;
 }
 
 .insta-caption {
@@ -264,12 +269,15 @@ main section {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 50px;
+    margin-left: 600px;
 }
 
 
 /* Subscribe Box */
 .subscribe {
-    margin-top: 130px;
+    max-width: 1325px;
+    margin: 0 auto;
+    /* margin-top: 130px; */
     padding: 0;
     background-image: url("../Flower\ Asset/Rectangle 9.png");
     background-size: cover;
@@ -282,7 +290,7 @@ main section {
 .subscribe-box {
     max-width: 500px;
     margin: 100px auto;
-    padding: 30px;
+    padding: 40px;
     /* padding-top: 122px;
     padding-bottom: 122px;
     padding-left: 200px;
@@ -293,6 +301,8 @@ main section {
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #272727;
+    font-weight: 900;
 }
 
 p {
@@ -307,7 +317,10 @@ input {
     margin-bottom: 20px;
     border: 0;
     border-radius: 8px;
+    font-size: 18px;
+    box-shadow: #272727;
 }
+
 
 /* Footer */
 
