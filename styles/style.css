@@ -42,6 +42,7 @@ main section {
     text-align: center;
     font-size: 18px;
 }
+
 /* Header */
 .header {
     background-color: #E554731A;
@@ -87,10 +88,11 @@ main section {
 
 
 /* Flower Category */
-.flower-box{
-    
+.flower-box {
+
     margin: 0 auto;
 }
+
 .flower-box-container {
     width: 1000;
     display: flex;
@@ -177,62 +179,91 @@ main section {
     gap: 24px;
 }
 
-.delivery-caption{
+.delivery-caption {
     color: rgba(39, 39, 39, 0.80);
     padding-top: 24px;
-    
+
 }
-.ful-caption{
+
+.ful-caption {
     color: rgba(39, 39, 39, 0.80);
     padding-top: 24px;
-    
+
 }
-.support-caption{
+
+.support-caption {
     color: rgba(39, 39, 39, 0.80);
     padding-top: 24px;
-    
+
 }
+
 .delivery {
     padding: 30px 0;
     text-align: center;
     color: rgba(39, 39, 39, 0.80);
     font-size: 17px;
 }
+
 /* Discount */
 
-.discount-container{
+.discount-container {
     background-color: #E554730D;
-    width: 100%; 
+    width: 100%;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-bottom: 24px;
+    border-radius: 10px;
 }
 
+.discount-container-2 {
+    align-items: center;
+    padding-left: 100px;
+}
 
+.discount-title {
+    color: #272727;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 24px;
+    margin-left: 5px;
+}
+.discount-title-color{
+    color: #E55473;
+}
 
-.di-ful{
+.discount-caption{
+    text-align: center;
+    color: #27272799;
+    margin-bottom: 32px;
+}
+
+.di-ful {
     width: 300px;
     height: 300px;
     padding: 50px;
 }
+
 /* Insta */
-.image-box{
+.image-box {
     margin-top: 48px;
     display: flex;
     justify-content: space-around;
     gap: 24px;
 }
 
-.insta-caption{
-margin-left: 200px;
-display: flex;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 50px;
+.insta-caption {
+    margin-left: 270px;
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 
@@ -244,10 +275,11 @@ margin-bottom: 50px;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
+    border-radius: 10px;
 
-  }
-  
-  .subscribe-box {
+}
+
+.subscribe-box {
     max-width: 500px;
     margin: 100px auto;
     padding: 30px;
@@ -256,61 +288,64 @@ margin-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px; */
     text-align: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  p {
+}
+
+p {
     font-size: 18px;
     margin-bottom: 20px;
     color: #27272799;
-  }
-  
-  input {
+}
+
+input {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 0;
     border-radius: 8px;
-  }
+}
 
-  /* Footer */
-  
-  footer{
+/* Footer */
+
+footer {
     background: #111010;
     height: auto;
     padding-top: 40px;
-  }
+}
 
-  .footer-content{
+.footer-content {
     text-align: center;
     padding-top: 50px;
-  }
-  .footer-bottom{
+}
+
+.footer-bottom {
     text-align: center;
     padding-bottom: 50px;
-  }
+}
 
-  .footer-title{
+.footer-title {
     color: white;
     font-size: 45px;
-     font-weight: bold;
-     font-family:Lato;
-     margin-bottom: 24px;
-  }
-  .footer-title-color{
-    color: #E55473;
-  }
-  .footer-caption{
-    color: #FFFFFFE5;
-    font-family:Lato;
-     margin-bottom: 24px;
-  }
+    font-weight: bold;
+    font-family: Lato;
+    margin-bottom: 24px;
+}
 
-  .copyright-text{
+.footer-title-color {
+    color: #E55473;
+}
+
+.footer-caption {
+    color: #FFFFFFE5;
+    font-family: Lato;
+    margin-bottom: 24px;
+}
+
+.copyright-text {
     color: #FFFFFF66;
-    font-family:Lato;
-  }
+    font-family: Lato;
+}
